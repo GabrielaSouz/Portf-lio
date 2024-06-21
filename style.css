@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: krona one;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+
+   
+}
+ 
+.header {
+    display: flex; 
+    gap: 50px;
+    padding: 30px;
+} 
+
+header{
+    background-color: black;
+}
+
+.header a {
+    color: #11F0F0;
+    /* margin-left: 170px; */
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: montserrat;
+    font-weight: 600;
+}
+
+.header a:hover {
+    border-radius: 20px;
+    background-color: #0EBCBB;
+    color: #000;
+    padding: 10px;
+}
+
+.perfil {
+    background: #000;
+    display: flex;
+
+}
+
+.perfil_texto {
+    /* padding: 10px; */
+    padding-top: 100px;
+    color: #11F0F0;
+}
+
+.perfil_texto h1 {
+    font-size: 34px;
+    width: 100%;
+}
+
+
+
+/* .perfil_texto h1{
+    
+} */
+
+.container .perfil_apresentacao p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0EBCBB;
+    font-family: montserrat;
+    font-size: 24px;
+    width: 90%;
+    margin-top: 50px;
+
+}
+
+
+.redes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    color: #11F0F0;
+    gap: 30px;
+
+}
+
+.redes p {
+    margin-bottom: 20px;
+    font-family: krona one;
+    font-size: 24px;
+}
+
+.redes a {
+    display: flex;
+    width: 200px;
+    padding: 21px;
+    color: #0ebcbb;
+    background-color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid #11f0f0;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.main{
+    flex: 1 1 0;
+}
+
+.rodape{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #11F0F0;
+    display: flex;
+    justify-content: center;
+    /*margin-top: 150px;*/
+    font-size: 22px;
+    font-family: Montserrat;
+    color: #000;
+}
+
+footer{
+    background-color: black;
+}
+
+
+.imagem{
+    display: flex;
+    align-items: center;
+    margin-right: 150px;
+    
+}
+
+.foto{
+    width:700px;
+    height: 700px;
+    border-radius: 50%;
+    border: 2px solid #0EBCBB;
+}
+
+.perfil_sobre_mim{
+    display: flex;
+    padding-top: 100px;
+    
+}
+
+.container_sobre_mim{
+    margin: 0 200px 0 200px;
+}
+
+.sobre_mim h1{
+    color: #11F0F0;
+    font-size: 34px;
+    font-family: krona one;
+}
+
+.sobre_mim_texto p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0EBCBB;
+    font-family: montserrat;
+    font-size: 24px;
+    width: 90%;
+    margin-top: 50px;
+}
+
+.perfil_curriculo{
+    display: flex;
+    padding-top: 100px;
+   
+}
+
+.container_curriculo{
+    margin: 0 200px 0 200px;
+}
+
+.curriculo h1{
+    color: #11F0F0;
+    font-size: 34px;
+    font-family: krona one;
+    
+}
+
+.curriculo_apresentação p{
+    color: #0EBCBB;
+    font-family: montserrat;
+    font-size: 24px;
+    padding: 50px 0 60px 0;
+    width: 90%;
+}
+
+.experiências h1{
+    color: #11F0F0;
+    font-size: 34px;
+    font-family: krona one;  
+    padding-bottom: 50px;
+}
+
+.curriculo_experiências li{
+    font-family: Montserrat;
+    color: #11f0f0;
+    font-size: 24px;
+    
+}
+
+.estudos h1{
+    color: #11F0F0;
+    font-size: 34px;
+    font-family: krona one;
+    padding: 50px 0 50px 0;
+}
+
+.curriculo_estudos li{
+    font-family: Montserrat;
+    color: #11f0f0;
+    font-size: 24px;
+    
+}
